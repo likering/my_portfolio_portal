@@ -59,7 +59,7 @@ a {
 }
 
 .header h1 {
-    width: 70%;
+    width: 20%;
     text-align: center;
 }
 
@@ -148,6 +148,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 8px;
 
 }
 
@@ -158,6 +159,7 @@ a {
 
     /* 横縦比率 1：1*/
     aspect-ratio: 1/1;
+    background: #fff;
     /* 正方形に対しまん丸にする */
     border-radius: 50%;
     /* マウスを重ねると指マークにする */
@@ -390,7 +392,7 @@ a {
     }
 
     .header {
-        justify-content: space-between4;
+        justify-content: space-between;
     }
 
     .portfolio-grid {
